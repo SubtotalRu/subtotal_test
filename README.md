@@ -26,6 +26,12 @@ python3 -m venv env
 env/bin/pip install -e .
 ```
 
+- Инициализация базы данных
+
+```
+initialize_subtotal_test_db development.ini
+```
+
 - Запуск прокта.
 
 ```

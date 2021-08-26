@@ -26,7 +26,7 @@ def my_view(request):
     }
 
 
-@view_config(route_name='home', renderer='json')
+@view_config(route_name='home_json', renderer='json')
 def my_view_json(request):
     query = get_orders(request.dbsession)
     return {
